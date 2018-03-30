@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB_Test", "AccessDB_Test\AccessDB_Test.csproj", "{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB", "AccessDB\AccessDB.csproj", "{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{57DB3D68-4220-4A96-A22E-803F1E2C89DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

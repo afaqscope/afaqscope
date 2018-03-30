@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DatabaseConnections</id>
+    <version>2.0.0</version>
+    <title>DatabaseConnections</title>
+    <authors>mrstebo, ekmsystems</authors>
+    <owners>mrstebo, ekmsystems</owners>
+    <licenseUrl>https://github.com/ekmsystems/DatabaseConnections/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ekmsystems/DatabaseConnections</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A wrapper around the standard IDb classes.</description>
+    <summary />
+    <tags>database connections idbconnection</tags>
+  </metadata>
+</package>
