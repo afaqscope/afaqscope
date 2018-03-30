@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 public class Access
 {
-    private Log logger = new Log();
     private String connectionString = @"Provider=Microsoft.JET.OlEDB.4.0;"
                        + @"Data Source=" + AppDomain.CurrentDomain.BaseDirectory + "LocalStorage.accdb";
     public bool testConnection()
@@ -24,7 +23,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            logger.writeToLog("testConnection", ex.StackTrace, ex.Message);
+            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }
@@ -55,7 +54,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            logger.writeToLog("testConnection", ex.StackTrace, ex.Message);
+            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }
@@ -76,7 +75,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            logger.writeToLog("testConnection", ex.StackTrace, ex.Message);
+            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }

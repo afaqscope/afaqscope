@@ -7,7 +7,7 @@ using System.IO;
 
 public class Log
 {
-    private string logFile = AppDomain.CurrentDomain.BaseDirectory + "log.txt";
+    private static string logFile = AppDomain.CurrentDomain.BaseDirectory + "log.txt";
 
     public Log()
     {
@@ -16,7 +16,7 @@ public class Log
             File.Create(logFile);
         }
     }
-    public void writeToLog(string methodName, string trace, string message)
+    public static void writeToLog(string methodName, string trace, string message)
     {
         string logEntry = " In Method : " + methodName + Environment.NewLine +
             " Trace : " + trace + Environment.NewLine + " Error Message : " + message;
