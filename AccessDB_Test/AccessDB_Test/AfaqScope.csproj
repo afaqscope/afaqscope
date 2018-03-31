@@ -7,8 +7,13 @@
     <ProjectGuid>{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+<<<<<<< HEAD:AccessDB_Test/AccessDB_Test/AfaqScope.csproj
     <RootNamespace>AfaqScope</RootNamespace>
     <AssemblyName>AfaqScope</AssemblyName>
+=======
+    <RootNamespace>AccessDB_Test</RootNamespace>
+    <AssemblyName>AccessDB_Test</AssemblyName>
+>>>>>>> ea6b2a9055126cabb22080889d6b3cdd33111d4d:AccessDB_Test/AccessDB_Test/AccessDB_Test.csproj
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -51,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:AccessDB_Test/AccessDB_Test/AfaqScope.csproj
     <Compile Include="User Controls\Footer.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,12 +88,21 @@
       <DependentUpon>ComboBoxWithText.cs</DependentUpon>
     </Compile>
     <Compile Include="views\FamilyReg.cs">
+=======
+    <Compile Include="Controllers\HouseHoldController.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="DAO\HouseHold.cs" />
+    <Compile Include="DAO\Person.cs" />
+    <Compile Include="Form1.cs">
+>>>>>>> ea6b2a9055126cabb22080889d6b3cdd33111d4d:AccessDB_Test/AccessDB_Test/AccessDB_Test.csproj
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="views\FamilyReg.Designer.cs">
       <DependentUpon>FamilyReg.cs</DependentUpon>
     </Compile>
     <Compile Include="json.cs" />
+    <Compile Include="Models\HouseHoldModel.cs" />
+    <Compile Include="Models\PersonModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="User Controls\ComboBoxWithText.resx">
@@ -133,9 +148,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AccessDB\AccessDB.csproj">
-      <Project>{ece6e7bc-bceb-4145-83c7-98aed2de4de6}</Project>
-      <Name>AccessDB</Name>
+    <ProjectReference Include="..\LocalStorage\LocalStorage.csproj">
+      <Project>{cfb71e0f-2191-45af-9dc1-4a0545c2ac3c}</Project>
+      <Name>LocalStorage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{57db3d68-4220-4a96-a22e-803f1e2c89df}</Project>
+      <Name>Log</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
