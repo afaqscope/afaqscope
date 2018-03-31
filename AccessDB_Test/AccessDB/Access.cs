@@ -25,7 +25,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
+            //Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }
@@ -73,7 +73,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
+            //Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }
@@ -94,7 +94,7 @@ public class Access
         }
         catch (Exception ex)
         {
-            Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
+           // Log.writeToLog("testConnection", ex.StackTrace, ex.Message);
             return false;
         }
     }

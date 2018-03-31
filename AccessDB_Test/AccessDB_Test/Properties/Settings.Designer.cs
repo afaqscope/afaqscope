@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AccessDB_Test.Properties {
+namespace AfaqScope.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

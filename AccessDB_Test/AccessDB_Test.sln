@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB_Test", "AccessDB_Test\AccessDB_Test.csproj", "{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfaqScope", "AccessDB_Test\AfaqScope.csproj", "{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB", "AccessDB\AccessDB.csproj", "{ECE6E7BC-BCEB-4145-83C7-98AED2DE4DE6}"
 EndProject

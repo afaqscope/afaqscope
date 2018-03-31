@@ -7,9 +7,9 @@
     <ProjectGuid>{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AccessDB_Test</RootNamespace>
-    <AssemblyName>AccessDB_Test</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>AfaqScope</RootNamespace>
+    <AssemblyName>AfaqScope</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -49,17 +51,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="User Controls\Footer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Footer.Designer.cs">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Header.Designer.cs">
+      <DependentUpon>Header.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\PersonalCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\PersonalCard.Designer.cs">
+      <DependentUpon>PersonalCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\TextBoxWithLable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\TextBoxWithLable.Designer.cs">
+      <DependentUpon>TextBoxWithLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\ComboBoxWithText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\ComboBoxWithText.Designer.cs">
+      <DependentUpon>ComboBoxWithText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\FamilyReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="views\FamilyReg.Designer.cs">
+      <DependentUpon>FamilyReg.cs</DependentUpon>
     </Compile>
     <Compile Include="json.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="User Controls\ComboBoxWithText.resx">
+      <DependentUpon>ComboBoxWithText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Footer.resx">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\PersonalCard.resx">
+      <DependentUpon>PersonalCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\TextBoxWithLable.resx">
+      <DependentUpon>TextBoxWithLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FamilyReg.resx">
+      <DependentUpon>FamilyReg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,6 +137,21 @@
       <Project>{ece6e7bc-bceb-4145-83c7-98aed2de4de6}</Project>
       <Name>AccessDB</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health_Test_And_Medical_Science-29-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-icon-2375785_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-icon-2375785_960_7202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Black_close_x.svg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
