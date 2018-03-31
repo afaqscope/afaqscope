@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Odbc;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,14 @@ using System.Threading.Tasks;
 
 public class Access
 {
-    private String connectionString = @"Provider=Microsoft.JET.OlEDB.4.0;"
-                       + @"Data Source=" + AppDomain.CurrentDomain.BaseDirectory + "LocalStorage.accdb";
+    private String connectionString = @"dsn=Access2;Dbq="
+                       + @"" + AppDomain.CurrentDomain.BaseDirectory + "LocalStorage.accdb";
     public bool testConnection()
     {
         try
+
         {
-            using (OleDbConnection conn = new OleDbConnection(connectionString))
+            using (System.Data.Odbc.OdbcConnection conn = new System.Data.Odbc.OdbcConnection(connectionString))
             {
                 conn.Open();
             }
@@ -28,28 +30,45 @@ public class Access
         }
     }
 
-    public bool executeCommand(string commandString, ref List<string> result)
+    public bool executeCommand(string commandString,ref List<Object> result)
     {
         try
         {
-                DataSet ds = new DataSet();
-                using (OleDbConnection conn = new OleDbConnection(connectionString))
-                {
-                    conn.Open();
+            using (System.Data.Odbc.OdbcConnection conn = new System.Data.Odbc.OdbcConnection(connectionString))
+            {
+                conn.Open();
+                OdbcCommand myCommand = new OdbcCommand("insert into Product(ProductName) values (\'hello\')", conn);
+                myCommand.ExecuteNonQuery();
+                 myCommand = new OdbcCommand(commandString, conn);
 
-                    OleDbDataAdapter da = new OleDbDataAdapter(commandString, conn);
-                    da.Fill(ds);
+                 OdbcDataReader reader = myCommand.ExecuteReader();
+                 object[] meta = new object[10];
+                 bool read;
+                 try
+                 {
+                     if (reader.Read() == true)
+                     {
+                         do
+                         {
+                             int NumberOfColums = reader.GetValues(meta);
+
+                             for (int i = 0; i < NumberOfColums; i++)
+                                 Console.Write("{0} ", meta[i].ToString());
+
+                             Console.WriteLine();
+                             read = reader.Read();
+                         } while (read == true);
+                     }
+                 }
+                 catch (Exception e)
+                 { }
+                finally
+                {
+                    reader.Close();
                     conn.Close();
-                    DataTable dt = ds.Tables[0];
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        foreach (string value in row.ItemArray)
-                        {
-                            result.Add(value);
-                        }
-                    }
-                }           
-           
+                }
+            }
+
             return true;
         }
         catch (Exception ex)
@@ -64,10 +83,10 @@ public class Access
         try
         {
 
-            using (OleDbConnection conn = new OleDbConnection(connectionString))
+            using (System.Data.Odbc.OdbcConnection conn = new System.Data.Odbc.OdbcConnection(connectionString))
             {
                 conn.Open();
-                OleDbCommand command = new OleDbCommand(commandString, conn);
+                System.Data.Odbc.OdbcCommand command = new System.Data.Odbc.OdbcCommand(commandString, conn);
                 command.ExecuteNonQuery();
             }
 

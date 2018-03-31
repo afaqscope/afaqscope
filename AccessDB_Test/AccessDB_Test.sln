@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB", "AccessDB\Access
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{57DB3D68-4220-4A96-A22E-803F1E2C89DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalStorage", "LocalStorage\LocalStorage.csproj", "{CFB71E0F-2191-45AF-9DC1-4A0545C2AC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57DB3D68-4220-4A96-A22E-803F1E2C89DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB71E0F-2191-45AF-9DC1-4A0545C2AC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB71E0F-2191-45AF-9DC1-4A0545C2AC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB71E0F-2191-45AF-9DC1-4A0545C2AC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB71E0F-2191-45AF-9DC1-4A0545C2AC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
