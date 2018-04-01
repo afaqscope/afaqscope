@@ -246,7 +246,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pictureBox1.Image = global::AfaqScope.Properties.Resources.edit_icon_2375785_960_7202;
             this.pictureBox1.Location = new System.Drawing.Point(-2, -2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(66, 68);
@@ -257,7 +256,6 @@
             // 
             // pictureBoxRightHand
             // 
-            this.pictureBoxRightHand.Image = global::AfaqScope.Properties.Resources.Health_Test_And_Medical_Science_29_512;
             this.pictureBoxRightHand.Location = new System.Drawing.Point(443, 436);
             this.pictureBoxRightHand.Name = "pictureBoxRightHand";
             this.pictureBoxRightHand.Size = new System.Drawing.Size(95, 93);
@@ -268,7 +266,6 @@
             // 
             // pictureBoxLeftHand
             // 
-            this.pictureBoxLeftHand.Image = global::AfaqScope.Properties.Resources.Health_Test_And_Medical_Science_29_512;
             this.pictureBoxLeftHand.Location = new System.Drawing.Point(144, 436);
             this.pictureBoxLeftHand.Name = "pictureBoxLeftHand";
             this.pictureBoxLeftHand.Size = new System.Drawing.Size(95, 93);
@@ -280,7 +277,6 @@
             // pictureBoxPersonal
             // 
             this.pictureBoxPersonal.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictureBoxPersonal.Image = global::AfaqScope.Properties.Resources.pawn;
             this.pictureBoxPersonal.Location = new System.Drawing.Point(443, 150);
             this.pictureBoxPersonal.Name = "pictureBoxPersonal";
             this.pictureBoxPersonal.Size = new System.Drawing.Size(134, 183);

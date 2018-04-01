@@ -7,13 +7,10 @@
     <ProjectGuid>{A2A04E38-5476-40CE-9918-4ACAC9CC96E2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-<<<<<<< HEAD:AccessDB_Test/AccessDB_Test/AfaqScope.csproj
     <RootNamespace>AfaqScope</RootNamespace>
     <AssemblyName>AfaqScope</AssemblyName>
-=======
     <RootNamespace>AccessDB_Test</RootNamespace>
     <AssemblyName>AccessDB_Test</AssemblyName>
->>>>>>> ea6b2a9055126cabb22080889d6b3cdd33111d4d:AccessDB_Test/AccessDB_Test/AccessDB_Test.csproj
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -56,7 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD:AccessDB_Test/AccessDB_Test/AfaqScope.csproj
     <Compile Include="User Controls\Footer.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,15 +84,12 @@
       <DependentUpon>ComboBoxWithText.cs</DependentUpon>
     </Compile>
     <Compile Include="views\FamilyReg.cs">
-=======
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Controllers\HouseHoldController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="DAO\HouseHold.cs" />
     <Compile Include="DAO\Person.cs" />
-    <Compile Include="Form1.cs">
->>>>>>> ea6b2a9055126cabb22080889d6b3cdd33111d4d:AccessDB_Test/AccessDB_Test/AccessDB_Test.csproj
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="views\FamilyReg.Designer.cs">
       <DependentUpon>FamilyReg.cs</DependentUpon>
     </Compile>

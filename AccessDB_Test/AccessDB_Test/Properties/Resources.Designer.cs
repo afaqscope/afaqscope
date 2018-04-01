@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AfaqScope.Properties {
+namespace AccessDB_Test.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace AfaqScope.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AfaqScope.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AccessDB_Test.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,56 +57,6 @@ namespace AfaqScope.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2000px_Black_close_x_svg {
-            get {
-                object obj = ResourceManager.GetObject("_2000px_Black_close_x_svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap edit_icon_2375785_960_720 {
-            get {
-                object obj = ResourceManager.GetObject("edit_icon_2375785_960_720", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap edit_icon_2375785_960_7202 {
-            get {
-                object obj = ResourceManager.GetObject("edit_icon_2375785_960_7202", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Health_Test_And_Medical_Science_29_512 {
-            get {
-                object obj = ResourceManager.GetObject("Health_Test_And_Medical_Science_29_512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pawn {
-            get {
-                object obj = ResourceManager.GetObject("pawn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

@@ -48,7 +48,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox1.Image = global::AfaqScope.Properties.Resources._2000px_Black_close_x_svg;
             this.pictureBox1.Location = new System.Drawing.Point(33, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(17, 23);

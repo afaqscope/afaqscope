@@ -210,7 +210,6 @@
             this.Controls.Add(this.textBoxWithLable3);
             this.Controls.Add(this.comboBoxWithText2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.header1);
             this.Controls.Add(this.comboBoxWithText1);
             this.Controls.Add(this.textBoxWithLable2);
             this.Controls.Add(this.textBoxWithLable1);
