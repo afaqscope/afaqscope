@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AccessDB_Test.DAO
+namespace DAO
 {
-    class Person
+    public class Person
     {
         #region "Privates"
 
@@ -158,7 +158,6 @@ namespace AccessDB_Test.DAO
             get { return disabled; }
             set { disabled = value; }
         }
-
         public string FP1
         {
             get { return fingerPrint1; }
@@ -183,19 +182,6 @@ namespace AccessDB_Test.DAO
             set { fingerPrint4 = value; }
         }
 
-        #endregion
-
-        #region "Lists"
-        public List<string> rolesList;
-        public List<string> beneficiaryList;
-        public List<string> recipientsList;
-        public List<string> genderList;
-        public List<string> dateOfBirthTypesList;
-        public List<string> documentTypesList;
-        public List<string> physicalDisabilityList;
-        public List<string> mintalDisabilityList;
-        public List<string> chronicallyIllList;
-        public List<string> disabledList;
         #endregion
     }
 }

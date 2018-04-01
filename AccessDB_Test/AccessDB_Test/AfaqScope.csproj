@@ -86,16 +86,12 @@
     <Compile Include="views\FamilyReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controllers\HouseHoldController.cs" />
-    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="DAO\HouseHold.cs" />
     <Compile Include="DAO\Person.cs" />
     <Compile Include="views\FamilyReg.Designer.cs">
       <DependentUpon>FamilyReg.cs</DependentUpon>
     </Compile>
     <Compile Include="json.cs" />
-    <Compile Include="Models\HouseHoldModel.cs" />
-    <Compile Include="Models\PersonModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="User Controls\ComboBoxWithText.resx">
@@ -141,10 +137,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LocalStorage\LocalStorage.csproj">
-      <Project>{cfb71e0f-2191-45af-9dc1-4a0545c2ac3c}</Project>
-      <Name>LocalStorage</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Log\Log.csproj">
       <Project>{57db3d68-4220-4a96-a22e-803f1e2c89df}</Project>
       <Name>Log</Name>
