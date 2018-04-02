@@ -9,6 +9,7 @@ namespace DAO
     {
         #region "Privates"
 
+        private int id;
         private string name;
         private int area;
         private int location;
@@ -22,10 +23,15 @@ namespace DAO
         private int income;
         private int originalGovernorate;
         private int partner;
-
+     
         #endregion
 
         #region "Properties"
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
         public string Name
         {
             get { return name; }

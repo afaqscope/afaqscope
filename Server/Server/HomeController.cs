@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Models;
 using DAO;
 using Controllers;
-using Constants;
+using General;
 
 namespace Server
 {
@@ -72,13 +72,13 @@ namespace Server
             }
         }
 
-        public bool startWork(GeneralContracts.OPERATION opCode, ref List<HouseHold> houseHolds)
+        public bool startWork(GeneralContracts.OPERATION opCode, ref List<HouseHold> houseHolds, HouseHold houseHold)
         {
             try {
                 switch (opCode)
                 {
                     case GeneralContracts.OPERATION.read:
-                        return houseHoldController.search(ref houseHolds);
+                        return houseHoldController.search(ref houseHolds,houseHold);
                     default:
                         return false;
                 }

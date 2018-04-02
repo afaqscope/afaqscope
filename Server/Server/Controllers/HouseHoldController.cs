@@ -60,11 +60,11 @@ namespace Controllers
                 return false;
             }
         }
-        public bool search(ref List<HouseHold> houseHolds)
+        public bool search(ref List<HouseHold> houseHolds,HouseHold houseHold)
         {
             try
             {
-                return houseHoldModel.search(ref houseHolds); ;
+                return houseHoldModel.search(ref houseHolds, houseHold); 
             }
             catch (Exception ex)
             {

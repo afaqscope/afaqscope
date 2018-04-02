@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A38F64FD-C3C0-4D22-B033-B881FA14BDDA}</ProjectGuid>
+    <ProjectGuid>{26EB14B2-B8EB-4888-A06B-33C30EAA93FC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Server</RootNamespace>
-    <AssemblyName>Server</AssemblyName>
+    <RootNamespace>Database</RootNamespace>
+    <AssemblyName>Database</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,27 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="General\GeneralContracts.cs" />
-    <Compile Include="Controllers\HouseHoldController.cs" />
-    <Compile Include="Controllers\PersonController.cs" />
-    <Compile Include="DAO\HouseHold.cs" />
-    <Compile Include="DAO\Person.cs" />
-    <Compile Include="HomeController.cs" />
-    <Compile Include="Models\HouseHoldModel.cs" />
-    <Compile Include="Models\PersonModel.cs" />
+    <Compile Include="OracleDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Database\Database.csproj">
-      <Project>{26eb14b2-b8eb-4888-a06b-33c30eaa93fc}</Project>
-      <Name>Database</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Log\Log.csproj">
       <Project>{57db3d68-4220-4a96-a22e-803f1e2c89df}</Project>
       <Name>Log</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
