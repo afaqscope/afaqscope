@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AccessDB_Test.views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace AccessDB_Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FamilyReg());
+            Application.Run(new Individual());
         }
+      
     }
 }

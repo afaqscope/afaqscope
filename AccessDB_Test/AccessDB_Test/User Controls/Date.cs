@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AfaqScope.User_Controls
+namespace AccessDB_Test.User_Controls
 {
-    public partial class Header : UserControl
+    public partial class Date : UserControl
     {
-        public Header()
+        public Date()
         {
             InitializeComponent();
         }
-        public void setHeader(string s)
-        {
-            labelHeader.Text = s;
-        }
     }
-    
 }

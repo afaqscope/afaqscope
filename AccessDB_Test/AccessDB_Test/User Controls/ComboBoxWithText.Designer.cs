@@ -35,28 +35,34 @@
             // 
             // labelUpperText
             // 
+            this.labelUpperText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelUpperText.AutoSize = true;
-            this.labelUpperText.Location = new System.Drawing.Point(280, 6);
+            this.labelUpperText.Location = new System.Drawing.Point(267, 8);
             this.labelUpperText.Name = "labelUpperText";
+            this.labelUpperText.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.labelUpperText.Size = new System.Drawing.Size(72, 17);
             this.labelUpperText.TabIndex = 11;
             this.labelUpperText.Text = "upperText";
             // 
             // labelSeparator
             // 
+            this.labelSeparator.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelSeparator.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelSeparator.Location = new System.Drawing.Point(17, 53);
+            this.labelSeparator.Location = new System.Drawing.Point(3, 55);
             this.labelSeparator.Name = "labelSeparator";
-            this.labelSeparator.Size = new System.Drawing.Size(335, 2);
+            this.labelSeparator.Size = new System.Drawing.Size(336, 2);
             this.labelSeparator.TabIndex = 7;
             // 
             // comboBox
             // 
+            this.comboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox.FormattingEnabled = true;
-            this.comboBox.Location = new System.Drawing.Point(17, 26);
+            this.comboBox.Location = new System.Drawing.Point(3, 28);
             this.comboBox.Name = "comboBox";
             this.comboBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.comboBox.Size = new System.Drawing.Size(335, 24);
+            this.comboBox.Size = new System.Drawing.Size(336, 24);
             this.comboBox.TabIndex = 12;
             this.comboBox.Enter += new System.EventHandler(this.textBox_GotFocus);
             this.comboBox.Leave += new System.EventHandler(this.textBox_LostFocus);
@@ -70,7 +76,7 @@
             this.Controls.Add(this.labelUpperText);
             this.Controls.Add(this.labelSeparator);
             this.Name = "ComboBoxWithText";
-            this.Size = new System.Drawing.Size(368, 70);
+            this.Size = new System.Drawing.Size(345, 70);
             this.Load += new System.EventHandler(this.ComboBoxWithText_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

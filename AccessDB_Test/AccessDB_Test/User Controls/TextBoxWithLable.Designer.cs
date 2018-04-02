@@ -37,6 +37,8 @@
             // 
             // labelSeparator
             // 
+            this.labelSeparator.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelSeparator.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelSeparator.Location = new System.Drawing.Point(7, 62);
             this.labelSeparator.Name = "labelSeparator";
@@ -45,6 +47,8 @@
             // 
             // textBox
             // 
+            this.textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox.Location = new System.Drawing.Point(7, 44);
             this.textBox.Name = "textBox";
@@ -56,6 +60,7 @@
             // 
             // labelStar
             // 
+            this.labelStar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelStar.AutoSize = true;
             this.labelStar.ForeColor = System.Drawing.Color.Red;
             this.labelStar.Location = new System.Drawing.Point(302, 42);
@@ -66,6 +71,7 @@
             // 
             // labelLowerText
             // 
+            this.labelLowerText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLowerText.AutoSize = true;
             this.labelLowerText.Location = new System.Drawing.Point(312, 42);
             this.labelLowerText.Name = "labelLowerText";
@@ -75,6 +81,7 @@
             // 
             // labelUpperText
             // 
+            this.labelUpperText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelUpperText.AutoSize = true;
             this.labelUpperText.Location = new System.Drawing.Point(270, 24);
             this.labelUpperText.Name = "labelUpperText";
@@ -93,7 +100,7 @@
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.labelSeparator);
             this.Name = "TextBoxWithLable";
-            this.Size = new System.Drawing.Size(345, 80);
+            this.Size = new System.Drawing.Size(345, 70);
             this.Load += new System.EventHandler(this.TextBoxWithLable_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

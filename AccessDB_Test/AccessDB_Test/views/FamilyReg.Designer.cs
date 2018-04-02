@@ -30,28 +30,29 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.isHostingComboBoxWithText10 = new AccessDB_Test.ComboBoxWithText();
+            this.partnerComboBoxWithText = new AccessDB_Test.ComboBoxWithText();
+            this.originalTeratoryComboBoxWithText7 = new AccessDB_Test.ComboBoxWithText();
+            this.incomingComboBoxWithText5 = new AccessDB_Test.ComboBoxWithText();
+            this.shelterComboBoxWithText6 = new AccessDB_Test.ComboBoxWithText();
+            this.returnStatusomboBoxWithText4 = new AccessDB_Test.ComboBoxWithText();
+            this.migrationStatusComboBoxWithText3 = new AccessDB_Test.ComboBoxWithText();
+            this.addressTextBoxWithLable3 = new AccessDB_Test.TextBoxWithLable();
+            this.relationshipComboBoxWithText9 = new AccessDB_Test.ComboBoxWithText();
+            this.header2 = new AfaqScope.User_Controls.Header();
             this.footer1 = new AfaqScope.User_Controls.Footer();
-            this.comboBoxWithText8 = new AccessDB_Test.ComboBoxWithText();
-            this.comboBoxWithText7 = new AccessDB_Test.ComboBoxWithText();
-            this.comboBoxWithText5 = new AccessDB_Test.ComboBoxWithText();
-            this.comboBoxWithText6 = new AccessDB_Test.ComboBoxWithText();
-            this.comboBoxWithText4 = new AccessDB_Test.ComboBoxWithText();
-            this.comboBoxWithText3 = new AccessDB_Test.ComboBoxWithText();
-            this.textBoxWithLable5 = new AccessDB_Test.TextBoxWithLable();
-            this.textBoxWithLable4 = new AccessDB_Test.TextBoxWithLable();
-            this.textBoxWithLable3 = new AccessDB_Test.TextBoxWithLable();
-            this.comboBoxWithText2 = new AccessDB_Test.ComboBoxWithText();
+            this.regionComboBoxWithText2 = new AccessDB_Test.ComboBoxWithText();
+            this.residencyStatusComboBoxWithText1 = new AccessDB_Test.ComboBoxWithText();
+            this.locationCextBoxWithLable2 = new AccessDB_Test.TextBoxWithLable();
+            this.nameTextBoxWithLable1 = new AccessDB_Test.TextBoxWithLable();
             this.header1 = new AfaqScope.User_Controls.Header();
-            this.comboBoxWithText1 = new AccessDB_Test.ComboBoxWithText();
-            this.textBoxWithLable2 = new AccessDB_Test.TextBoxWithLable();
-            this.textBoxWithLable1 = new AccessDB_Test.TextBoxWithLable();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1066, 796);
+            this.label1.Location = new System.Drawing.Point(1478, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 29);
             this.label1.TabIndex = 0;
@@ -61,158 +62,168 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1049, 1060);
+            this.label5.Location = new System.Drawing.Point(1468, 380);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 29);
             this.label5.TabIndex = 8;
             this.label5.Text = "الموقع";
+            // 
+            // isHostingComboBoxWithText10
+            // 
+            this.isHostingComboBoxWithText10.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.isHostingComboBoxWithText10.Location = new System.Drawing.Point(76, 662);
+            this.isHostingComboBoxWithText10.Name = "isHostingComboBoxWithText10";
+            this.isHostingComboBoxWithText10.Size = new System.Drawing.Size(1467, 70);
+            this.isHostingComboBoxWithText10.TabIndex = 30;
+            // 
+            // partnerComboBoxWithText
+            // 
+            this.partnerComboBoxWithText.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.partnerComboBoxWithText.Location = new System.Drawing.Point(62, 1032);
+            this.partnerComboBoxWithText.Name = "partnerComboBoxWithText";
+            this.partnerComboBoxWithText.Size = new System.Drawing.Size(1467, 70);
+            this.partnerComboBoxWithText.TabIndex = 29;
+            // 
+            // originalTeratoryComboBoxWithText7
+            // 
+            this.originalTeratoryComboBoxWithText7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.originalTeratoryComboBoxWithText7.Location = new System.Drawing.Point(62, 967);
+            this.originalTeratoryComboBoxWithText7.Name = "originalTeratoryComboBoxWithText7";
+            this.originalTeratoryComboBoxWithText7.Size = new System.Drawing.Size(1467, 70);
+            this.originalTeratoryComboBoxWithText7.TabIndex = 28;
+            // 
+            // incomingComboBoxWithText5
+            // 
+            this.incomingComboBoxWithText5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.incomingComboBoxWithText5.Location = new System.Drawing.Point(62, 891);
+            this.incomingComboBoxWithText5.Name = "incomingComboBoxWithText5";
+            this.incomingComboBoxWithText5.Size = new System.Drawing.Size(699, 70);
+            this.incomingComboBoxWithText5.TabIndex = 27;
+            // 
+            // shelterComboBoxWithText6
+            // 
+            this.shelterComboBoxWithText6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.shelterComboBoxWithText6.Location = new System.Drawing.Point(802, 891);
+            this.shelterComboBoxWithText6.Name = "shelterComboBoxWithText6";
+            this.shelterComboBoxWithText6.Size = new System.Drawing.Size(727, 70);
+            this.shelterComboBoxWithText6.TabIndex = 26;
+            // 
+            // returnStatusomboBoxWithText4
+            // 
+            this.returnStatusomboBoxWithText4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.returnStatusomboBoxWithText4.Location = new System.Drawing.Point(76, 738);
+            this.returnStatusomboBoxWithText4.Name = "returnStatusomboBoxWithText4";
+            this.returnStatusomboBoxWithText4.Size = new System.Drawing.Size(699, 70);
+            this.returnStatusomboBoxWithText4.TabIndex = 25;
+            // 
+            // migrationStatusComboBoxWithText3
+            // 
+            this.migrationStatusComboBoxWithText3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.migrationStatusComboBoxWithText3.Location = new System.Drawing.Point(816, 738);
+            this.migrationStatusComboBoxWithText3.Name = "migrationStatusComboBoxWithText3";
+            this.migrationStatusComboBoxWithText3.Size = new System.Drawing.Size(727, 70);
+            this.migrationStatusComboBoxWithText3.TabIndex = 24;
+            // 
+            // addressTextBoxWithLable3
+            // 
+            this.addressTextBoxWithLable3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.addressTextBoxWithLable3.Location = new System.Drawing.Point(76, 500);
+            this.addressTextBoxWithLable3.Name = "addressTextBoxWithLable3";
+            this.addressTextBoxWithLable3.Size = new System.Drawing.Size(1467, 80);
+            this.addressTextBoxWithLable3.TabIndex = 23;
+            // 
+            // relationshipComboBoxWithText9
+            // 
+            this.relationshipComboBoxWithText9.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.relationshipComboBoxWithText9.Location = new System.Drawing.Point(76, 586);
+            this.relationshipComboBoxWithText9.Name = "relationshipComboBoxWithText9";
+            this.relationshipComboBoxWithText9.Size = new System.Drawing.Size(1467, 70);
+            this.relationshipComboBoxWithText9.TabIndex = 21;
+            // 
+            // header2
+            // 
+            this.header2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.header2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.header2.Location = new System.Drawing.Point(0, 0);
+            this.header2.Name = "header2";
+            this.header2.Size = new System.Drawing.Size(1592, 80);
+            this.header2.TabIndex = 20;
             // 
             // footer1
             // 
             this.footer1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.footer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.footer1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.footer1.Location = new System.Drawing.Point(0, 1708);
+            this.footer1.Location = new System.Drawing.Point(0, 1102);
             this.footer1.Name = "footer1";
-            this.footer1.Size = new System.Drawing.Size(1151, 68);
+            this.footer1.Size = new System.Drawing.Size(1592, 68);
             this.footer1.TabIndex = 19;
             // 
-            // comboBoxWithText8
+            // regionComboBoxWithText2
             // 
-            this.comboBoxWithText8.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText8.Location = new System.Drawing.Point(741, 1638);
-            this.comboBoxWithText8.Name = "comboBoxWithText8";
-            this.comboBoxWithText8.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText8.TabIndex = 18;
+            this.regionComboBoxWithText2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.regionComboBoxWithText2.Location = new System.Drawing.Point(816, 426);
+            this.regionComboBoxWithText2.Name = "regionComboBoxWithText2";
+            this.regionComboBoxWithText2.Size = new System.Drawing.Size(727, 70);
+            this.regionComboBoxWithText2.TabIndex = 9;
             // 
-            // comboBoxWithText7
+            // residencyStatusComboBoxWithText1
             // 
-            this.comboBoxWithText7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText7.Location = new System.Drawing.Point(741, 1580);
-            this.comboBoxWithText7.Name = "comboBoxWithText7";
-            this.comboBoxWithText7.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText7.TabIndex = 17;
+            this.residencyStatusComboBoxWithText1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.residencyStatusComboBoxWithText1.Location = new System.Drawing.Point(816, 270);
+            this.residencyStatusComboBoxWithText1.Name = "residencyStatusComboBoxWithText1";
+            this.residencyStatusComboBoxWithText1.Size = new System.Drawing.Size(727, 70);
+            this.residencyStatusComboBoxWithText1.TabIndex = 6;
             // 
-            // comboBoxWithText5
+            // locationCextBoxWithLable2
             // 
-            this.comboBoxWithText5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText5.Location = new System.Drawing.Point(353, 1504);
-            this.comboBoxWithText5.Name = "comboBoxWithText5";
-            this.comboBoxWithText5.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText5.TabIndex = 16;
+            this.locationCextBoxWithLable2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.locationCextBoxWithLable2.Location = new System.Drawing.Point(76, 416);
+            this.locationCextBoxWithLable2.Name = "locationCextBoxWithLable2";
+            this.locationCextBoxWithLable2.Size = new System.Drawing.Size(699, 80);
+            this.locationCextBoxWithLable2.TabIndex = 5;
             // 
-            // comboBoxWithText6
+            // nameTextBoxWithLable1
             // 
-            this.comboBoxWithText6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText6.Location = new System.Drawing.Point(741, 1504);
-            this.comboBoxWithText6.Name = "comboBoxWithText6";
-            this.comboBoxWithText6.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText6.TabIndex = 15;
-            // 
-            // comboBoxWithText4
-            // 
-            this.comboBoxWithText4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText4.Location = new System.Drawing.Point(353, 1428);
-            this.comboBoxWithText4.Name = "comboBoxWithText4";
-            this.comboBoxWithText4.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText4.TabIndex = 14;
-            // 
-            // comboBoxWithText3
-            // 
-            this.comboBoxWithText3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText3.Location = new System.Drawing.Point(741, 1428);
-            this.comboBoxWithText3.Name = "comboBoxWithText3";
-            this.comboBoxWithText3.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText3.TabIndex = 13;
-            // 
-            // textBoxWithLable5
-            // 
-            this.textBoxWithLable5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxWithLable5.Location = new System.Drawing.Point(748, 1352);
-            this.textBoxWithLable5.Name = "textBoxWithLable5";
-            this.textBoxWithLable5.Size = new System.Drawing.Size(361, 80);
-            this.textBoxWithLable5.TabIndex = 12;
-            // 
-            // textBoxWithLable4
-            // 
-            this.textBoxWithLable4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxWithLable4.Location = new System.Drawing.Point(748, 1267);
-            this.textBoxWithLable4.Name = "textBoxWithLable4";
-            this.textBoxWithLable4.Size = new System.Drawing.Size(361, 80);
-            this.textBoxWithLable4.TabIndex = 11;
-            // 
-            // textBoxWithLable3
-            // 
-            this.textBoxWithLable3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxWithLable3.Location = new System.Drawing.Point(748, 1181);
-            this.textBoxWithLable3.Name = "textBoxWithLable3";
-            this.textBoxWithLable3.Size = new System.Drawing.Size(361, 80);
-            this.textBoxWithLable3.TabIndex = 10;
-            // 
-            // comboBoxWithText2
-            // 
-            this.comboBoxWithText2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText2.Location = new System.Drawing.Point(748, 1106);
-            this.comboBoxWithText2.Name = "comboBoxWithText2";
-            this.comboBoxWithText2.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText2.TabIndex = 9;
+            this.nameTextBoxWithLable1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.nameTextBoxWithLable1.Location = new System.Drawing.Point(90, 184);
+            this.nameTextBoxWithLable1.Name = "nameTextBoxWithLable1";
+            this.nameTextBoxWithLable1.Size = new System.Drawing.Size(1453, 80);
+            this.nameTextBoxWithLable1.TabIndex = 4;
             // 
             // header1
             // 
             this.header1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.header1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.header1.Location = new System.Drawing.Point(0, 0);
+            this.header1.Location = new System.Drawing.Point(0, -787);
             this.header1.Name = "header1";
             this.header1.Size = new System.Drawing.Size(1130, 80);
             this.header1.TabIndex = 7;
             // 
-            // comboBoxWithText1
-            // 
-            this.comboBoxWithText1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.comboBoxWithText1.Location = new System.Drawing.Point(748, 942);
-            this.comboBoxWithText1.Name = "comboBoxWithText1";
-            this.comboBoxWithText1.Size = new System.Drawing.Size(368, 70);
-            this.comboBoxWithText1.TabIndex = 6;
-            // 
-            // textBoxWithLable2
-            // 
-            this.textBoxWithLable2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxWithLable2.Location = new System.Drawing.Point(413, 1096);
-            this.textBoxWithLable2.Name = "textBoxWithLable2";
-            this.textBoxWithLable2.Size = new System.Drawing.Size(345, 80);
-            this.textBoxWithLable2.TabIndex = 5;
-            // 
-            // textBoxWithLable1
-            // 
-            this.textBoxWithLable1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxWithLable1.Location = new System.Drawing.Point(755, 856);
-            this.textBoxWithLable1.Name = "textBoxWithLable1";
-            this.textBoxWithLable1.Size = new System.Drawing.Size(361, 80);
-            this.textBoxWithLable1.TabIndex = 4;
-            // 
             // FamilyReg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1172, 688);
+            this.ClientSize = new System.Drawing.Size(1613, 783);
+            this.Controls.Add(this.isHostingComboBoxWithText10);
+            this.Controls.Add(this.partnerComboBoxWithText);
+            this.Controls.Add(this.originalTeratoryComboBoxWithText7);
+            this.Controls.Add(this.incomingComboBoxWithText5);
+            this.Controls.Add(this.shelterComboBoxWithText6);
+            this.Controls.Add(this.returnStatusomboBoxWithText4);
+            this.Controls.Add(this.migrationStatusComboBoxWithText3);
+            this.Controls.Add(this.addressTextBoxWithLable3);
+            this.Controls.Add(this.relationshipComboBoxWithText9);
+            this.Controls.Add(this.header2);
             this.Controls.Add(this.footer1);
-            this.Controls.Add(this.comboBoxWithText8);
-            this.Controls.Add(this.comboBoxWithText7);
-            this.Controls.Add(this.comboBoxWithText5);
-            this.Controls.Add(this.comboBoxWithText6);
-            this.Controls.Add(this.comboBoxWithText4);
-            this.Controls.Add(this.comboBoxWithText3);
-            this.Controls.Add(this.textBoxWithLable5);
-            this.Controls.Add(this.textBoxWithLable4);
-            this.Controls.Add(this.textBoxWithLable3);
-            this.Controls.Add(this.comboBoxWithText2);
+            this.Controls.Add(this.regionComboBoxWithText2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBoxWithText1);
-            this.Controls.Add(this.textBoxWithLable2);
-            this.Controls.Add(this.textBoxWithLable1);
+            this.Controls.Add(this.residencyStatusComboBoxWithText1);
+            this.Controls.Add(this.locationCextBoxWithLable2);
+            this.Controls.Add(this.nameTextBoxWithLable1);
             this.Controls.Add(this.label1);
             this.Name = "FamilyReg";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -225,22 +236,23 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private TextBoxWithLable textBoxWithLable2;
-        private ComboBoxWithText comboBoxWithText1;
-        private TextBoxWithLable textBoxWithLable1;
         private AfaqScope.User_Controls.Header header1;
-        private System.Windows.Forms.Label label5;
-        private ComboBoxWithText comboBoxWithText2;
-        private TextBoxWithLable textBoxWithLable3;
-        private TextBoxWithLable textBoxWithLable4;
-        private TextBoxWithLable textBoxWithLable5;
-        private ComboBoxWithText comboBoxWithText3;
-        private ComboBoxWithText comboBoxWithText4;
-        private ComboBoxWithText comboBoxWithText5;
-        private ComboBoxWithText comboBoxWithText6;
-        private ComboBoxWithText comboBoxWithText7;
-        private ComboBoxWithText comboBoxWithText8;
         private AfaqScope.User_Controls.Footer footer1;
+        private AfaqScope.User_Controls.Header header2;
+        private System.Windows.Forms.Label label1;
+        private TextBoxWithLable nameTextBoxWithLable1;
+        private TextBoxWithLable locationCextBoxWithLable2;
+        private ComboBoxWithText residencyStatusComboBoxWithText1;
+        private System.Windows.Forms.Label label5;
+        private ComboBoxWithText regionComboBoxWithText2;
+        private ComboBoxWithText relationshipComboBoxWithText9;
+        private TextBoxWithLable addressTextBoxWithLable3;
+        private ComboBoxWithText isHostingComboBoxWithText10;
+        private ComboBoxWithText partnerComboBoxWithText;
+        private ComboBoxWithText originalTeratoryComboBoxWithText7;
+        private ComboBoxWithText incomingComboBoxWithText5;
+        private ComboBoxWithText shelterComboBoxWithText6;
+        private ComboBoxWithText returnStatusomboBoxWithText4;
+        private ComboBoxWithText migrationStatusComboBoxWithText3;
     }
 }

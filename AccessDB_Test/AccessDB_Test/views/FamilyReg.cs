@@ -18,11 +18,13 @@ namespace AccessDB_Test
 
         private void FamilyReg_Load(object sender, EventArgs e)
         {
-            textBoxWithLable1.setUpperText("الإسم");
-            textBoxWithLable1.setLowerText("الإسم");
+            header2.setHeader("الأسرة");
 
-            comboBoxWithText1.setUpperText("حالة الإقامة");
-            comboBoxWithText1.setComboBoxText("");
+            nameTextBoxWithLable1.setUpperText("الإسم");
+            nameTextBoxWithLable1.setLowerText("الإسم");
+
+            residencyStatusComboBoxWithText1.setUpperText("حالة الإقامة");
+            residencyStatusComboBoxWithText1.setComboBoxText("");
         }
     }
 }

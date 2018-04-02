@@ -1,25 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AfaqScope.User_Controls
+namespace AccessDB_Test.views
 {
-    public partial class Header : UserControl
+    public partial class Individual : Form
     {
-        public Header()
+        public Individual()
         {
             InitializeComponent();
         }
-        public void setHeader(string s)
-        {
-            labelHeader.Text = s;
-        }
     }
-    
 }

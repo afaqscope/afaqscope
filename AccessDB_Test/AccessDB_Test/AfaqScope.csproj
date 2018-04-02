@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="User Controls\Date.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\Date.Designer.cs">
+      <DependentUpon>Date.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Footer.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,8 +100,23 @@
     <Compile Include="json.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\Individual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\Individual.Designer.cs">
+      <DependentUpon>Individual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="User Controls\ComboBoxWithText.resx">
       <DependentUpon>ComboBoxWithText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\Date.resx">
+      <DependentUpon>Date.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\Footer.resx">
       <DependentUpon>Footer.cs</DependentUpon>
@@ -122,6 +143,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="views\Individual.resx">
+      <DependentUpon>Individual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -143,19 +170,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Health_Test_And_Medical_Science-29-512.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pawn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\edit-icon-2375785_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Black_close_x.svg.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\edit-icon-2375785_960_7202.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2000px-Black_close_x.svg.png" />
+    <None Include="Resources\Health_Test_And_Medical_Science-29-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pawn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
