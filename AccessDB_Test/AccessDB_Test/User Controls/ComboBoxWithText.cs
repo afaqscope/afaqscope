@@ -21,6 +21,7 @@ namespace AccessDB_Test
         {
             comboBoxText = "initial text";
             comboBox.Text = comboBoxText;
+            comboBox.ForeColor = Color.Gray;
 
             labelUpperText.Hide();
 
@@ -36,6 +37,7 @@ namespace AccessDB_Test
             if (comboBox.SelectedItem == null)
             {
                 comboBox.Text = comboBoxText;
+                comboBox.ForeColor = Color.Gray;
                 labelUpperText.Hide();
             }
 
@@ -50,6 +52,11 @@ namespace AccessDB_Test
         public void setComboBoxText(string s)
         {
             comboBox.Text = s;
+        }
+
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox.ForeColor = Color.Black;
         }
     }
 }

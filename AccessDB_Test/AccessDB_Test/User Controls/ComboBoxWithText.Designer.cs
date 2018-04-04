@@ -64,6 +64,7 @@
             this.comboBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.comboBox.Size = new System.Drawing.Size(336, 24);
             this.comboBox.TabIndex = 12;
+            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             this.comboBox.Enter += new System.EventHandler(this.textBox_GotFocus);
             this.comboBox.Leave += new System.EventHandler(this.textBox_LostFocus);
             // 

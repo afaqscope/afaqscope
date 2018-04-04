@@ -14,14 +14,19 @@ namespace AccessDB_Test
         public FamilyReg()
         {
             InitializeComponent();
+            
         }
 
         private void FamilyReg_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            Size size = Screen.PrimaryScreen.Bounds.Size;
+            this.MinimumSize = size;
+            this.MaximumSize = size;
             header2.setHeader("الأسرة");
 
-            nameTextBoxWithLable1.setUpperText("الإسم");
-            nameTextBoxWithLable1.setLowerText("الإسم");
+            //nameTextBoxWithLable1.setUpperText("الإسم");
+            //nameTextBoxWithLable1.setLowerText("الإسم");
 
             residencyStatusComboBoxWithText1.setUpperText("حالة الإقامة");
             residencyStatusComboBoxWithText1.setComboBoxText("");

@@ -68,16 +68,19 @@
             this.labelStar.Size = new System.Drawing.Size(13, 17);
             this.labelStar.TabIndex = 5;
             this.labelStar.Text = "*";
+            this.labelStar.Click += new System.EventHandler(this.labelStar_Click);
             // 
             // labelLowerText
             // 
             this.labelLowerText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLowerText.AutoSize = true;
+            this.labelLowerText.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.labelLowerText.Location = new System.Drawing.Point(312, 42);
             this.labelLowerText.Name = "labelLowerText";
             this.labelLowerText.Size = new System.Drawing.Size(30, 17);
             this.labelLowerText.TabIndex = 4;
             this.labelLowerText.Text = "text";
+            this.labelLowerText.Click += new System.EventHandler(this.labelLowerText_Click);
             // 
             // labelUpperText
             // 
