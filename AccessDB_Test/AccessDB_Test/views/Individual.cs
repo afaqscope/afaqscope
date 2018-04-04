@@ -16,5 +16,13 @@ namespace AccessDB_Test.views
         {
             InitializeComponent();
         }
+
+        private void Individual_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            Size size = Screen.PrimaryScreen.Bounds.Size;
+            this.MinimumSize = size;
+            this.MaximumSize = size;
+        }
     }
 }
