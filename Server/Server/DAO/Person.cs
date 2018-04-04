@@ -8,11 +8,12 @@ namespace DAO
     public class Person
     {
         #region "Privates"
-
+        private int id;
+        private int houseHoldId;
         private int role;
         private int beneficiary;
         private int recipient;
-        private string firstName;       
+        private string firstName;
         private string midName;
         private string lastName;
         private int gender;
@@ -37,6 +38,11 @@ namespace DAO
         #endregion
 
         #region "Properties"
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
         public int Role
         {
             get { return role; }
@@ -71,7 +77,7 @@ namespace DAO
             set { lastName = value; }
         }
 
-        
+
         public int Gender
         {
             get { return gender; }
@@ -182,6 +188,11 @@ namespace DAO
             set { fingerPrint4 = value; }
         }
 
+        public int HouseHoldId
+        {
+            get { return houseHoldId; }
+            set { houseHoldId = value; }
+        }
         #endregion
     }
 }
