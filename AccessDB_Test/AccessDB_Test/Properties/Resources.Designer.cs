@@ -73,6 +73,16 @@ namespace AccessDB_Test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_friend_512 {
+            get {
+                object obj = ResourceManager.GetObject("add_friend-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap edit_icon_2375785_960_7202 {
             get {
                 object obj = ResourceManager.GetObject("edit_icon_2375785_960_7202", resourceCulture);

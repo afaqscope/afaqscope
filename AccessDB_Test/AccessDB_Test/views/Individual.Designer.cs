@@ -64,7 +64,7 @@
             this.footer1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.footer1.Location = new System.Drawing.Point(0, 1443);
             this.footer1.Name = "footer1";
-            this.footer1.Size = new System.Drawing.Size(1592, 68);
+            this.footer1.Size = new System.Drawing.Size(1655, 68);
             this.footer1.TabIndex = 0;
             // 
             // header1
@@ -73,7 +73,7 @@
             this.header1.Dock = System.Windows.Forms.DockStyle.Top;
             this.header1.Location = new System.Drawing.Point(0, 0);
             this.header1.Name = "header1";
-            this.header1.Size = new System.Drawing.Size(1592, 80);
+            this.header1.Size = new System.Drawing.Size(1655, 80);
             this.header1.TabIndex = 1;
             // 
             // labelRole
@@ -292,7 +292,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1613, 783);
+            this.ClientSize = new System.Drawing.Size(1676, 783);
             this.Controls.Add(this.comboBoxWithText12);
             this.Controls.Add(this.comboBoxWithText5);
             this.Controls.Add(this.textBoxWithLable7);
