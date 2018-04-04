@@ -20,6 +20,13 @@ namespace AfaqScope.User_Controls
         {
             labelHeader.Text = s;
         }
+
+        private void Header_Load(object sender, EventArgs e)
+        {
+            button2.TabStop = false;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderSize = 0;
+        }
     }
     
 }

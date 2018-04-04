@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="User Controls\AddMember.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\AddMember.Designer.cs">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\Date.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     <Compile Include="views\Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="User Controls\AddMember.resx">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Controls\ComboBoxWithText.resx">
       <DependentUpon>ComboBoxWithText.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +192,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_friend-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

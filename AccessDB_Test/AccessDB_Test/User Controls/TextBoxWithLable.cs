@@ -42,7 +42,6 @@ namespace AccessDB_Test
             labelStar.Show();
             labelUpperText.Hide();
         }
-
         public void setUpperText(string s)
         {
             labelUpperText.Text = s;
@@ -50,6 +49,16 @@ namespace AccessDB_Test
         public void setLowerText(string s)
         {
             labelLowerText.Text = s;
+        }
+
+        private void labelLowerText_Click(object sender, EventArgs e)
+        {
+            textBox.Focus();
+        }
+
+        private void labelStar_Click(object sender, EventArgs e)
+        {
+            textBox.Focus();
         }
     }
 }
