@@ -77,7 +77,7 @@ namespace Server
             try {
                 switch (opCode)
                 {
-                    case GeneralContracts.OPERATION.read:
+                    case GeneralContracts.OPERATION.search:
                         return houseHoldController.search(ref houseHolds,houseHold);
                     default:
                         return false;
@@ -90,14 +90,14 @@ namespace Server
             }
         }
 
-        public bool startWork(GeneralContracts.OPERATION opCode, ref List<Person> persons)
+        public bool startWork(GeneralContracts.OPERATION opCode, ref List<Person> persons, HouseHold household)
         {
             try
             {
                 switch (opCode)
                 {
-                    case GeneralContracts.OPERATION.read:
-                        return personController.search(ref persons);
+                    case GeneralContracts.OPERATION.search:
+                        return personController.search(ref persons, household);
                     default:
                         return false;
                 }

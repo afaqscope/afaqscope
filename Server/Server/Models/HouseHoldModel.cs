@@ -22,7 +22,8 @@ namespace Models
             bool executionResult;
             try
             {
-                query = "SELECT * FROM HOUSESOLD WHERE ID=" + houseHold.Id;
+                query = "SELECT NAME,AREA,LOCATION,BEBEFICIARY,HOSTONG_DIS,ADDRESS,MARTIAL_STATUS,DISPLACEMENT_STATUS" +
+                    ",RETURNEE_STATUS,SHELTER_STATUS,INCOME,ORIGINAL_GOVERNORATE,PARTNER FROM HOUSESOLD WHERE ID=" + houseHold.Id;
                 result = new string[RESULT_DEFAULT_SIZE];
 
                 executionResult = db.executeCommand(query, ref result);
@@ -131,7 +132,7 @@ namespace Models
 
             try
             {
-                query = "SELECT * FROM HOUSEHOLD ";
+                query = "SELECT * FROM HOUSEHOLD WHERE ";
                query += getFilters(houseHold);
 
                 executionResult = db.executeCommand(query);
@@ -150,8 +151,7 @@ namespace Models
             string whereStatment = "";
             try
             {
-                //if (!string.IsNullOrEmpty(houseHold.Area))
-                //    whereStatment += houseHold.Area;
+
                 return whereStatment;               
             }
             catch (Exception ex)

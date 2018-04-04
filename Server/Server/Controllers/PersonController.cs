@@ -60,11 +60,11 @@ namespace Controllers
                 return false;
             }
         }
-        public bool search(ref List<Person> persons)
+        public bool search(ref List<Person> persons, HouseHold household)
         {
             try
             {
-                return PersonModel.search(ref persons); ;
+                return PersonModel.search(ref persons, household); ;
             }
             catch (Exception ex)
             {
