@@ -10,6 +10,7 @@ namespace DAO
         #region "Privates"
         private int id;
         private int houseHoldId;
+        private string houseHoldName;
         private int role;
         private int beneficiary;
         private int recipient;
@@ -43,6 +44,13 @@ namespace DAO
             get { return id; }
             set { id = value; }
         }
+
+        public string HouseHoldName
+        {
+            get { return houseHoldName; }
+            set { houseHoldName = value; }
+        }
+
         public int Role
         {
             get { return role; }
