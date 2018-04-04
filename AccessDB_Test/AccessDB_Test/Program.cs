@@ -17,7 +17,7 @@ namespace AccessDB_Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Individual());
+            Application.Run(new Search());
         }
       
     }

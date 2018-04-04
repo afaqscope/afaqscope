@@ -63,6 +63,16 @@ namespace AccessDB_Test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1600 {
+            get {
+                object obj = ResourceManager.GetObject("_1600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2000px_Black_close_x_svg {
             get {
                 object obj = ResourceManager.GetObject("_2000px_Black_close_x_svg", resourceCulture);
