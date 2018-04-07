@@ -44,9 +44,11 @@ namespace AccessDB_Test
 
         }
 
-        public void setUpperText(string s)
+        public void setText(string u, string l)
         {
-            labelUpperText.Text = s;
+            labelUpperText.Text = u;
+            setComboBoxText(l);
+            comboBoxText = l;
         }
 
         public void setComboBoxText(string s)

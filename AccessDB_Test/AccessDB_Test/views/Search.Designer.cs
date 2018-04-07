@@ -37,6 +37,7 @@
             this.labelSeparator = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.header2 = new AfaqScope.User_Controls.Header();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.header2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox1);
@@ -61,16 +63,16 @@
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 80);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1608, 703);
+            this.panel1.Size = new System.Drawing.Size(1608, 783);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::AccessDB_Test.Properties.Resources._1600;
-            this.pictureBox1.Location = new System.Drawing.Point(97, 64);
+            this.pictureBox1.Location = new System.Drawing.Point(75, 150);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(59, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,7 +84,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(1412, 112);
+            this.label2.Location = new System.Drawing.Point(1390, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(144, 2);
             this.label2.TabIndex = 15;
@@ -91,7 +93,7 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(97, 87);
+            this.textBox1.Location = new System.Drawing.Point(75, 173);
             this.textBox1.Name = "textBox1";
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox1.Size = new System.Drawing.Size(1284, 15);
@@ -104,7 +106,7 @@
             // panelPersonalCards
             // 
             this.panelPersonalCards.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelPersonalCards.Location = new System.Drawing.Point(102, 187);
+            this.panelPersonalCards.Location = new System.Drawing.Point(80, 273);
             this.panelPersonalCards.Name = "panelPersonalCards";
             this.panelPersonalCards.Size = new System.Drawing.Size(1468, 57);
             this.panelPersonalCards.TabIndex = 12;
@@ -113,7 +115,7 @@
             // 
             this.labelSeparator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelSeparator.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelSeparator.Location = new System.Drawing.Point(97, 112);
+            this.labelSeparator.Location = new System.Drawing.Point(75, 198);
             this.labelSeparator.Name = "labelSeparator";
             this.labelSeparator.Size = new System.Drawing.Size(1284, 2);
             this.labelSeparator.TabIndex = 13;
@@ -122,7 +124,7 @@
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1411, 87);
+            this.comboBox1.Location = new System.Drawing.Point(1389, 173);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.comboBox1.Size = new System.Drawing.Size(145, 24);
@@ -132,11 +134,20 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1484, 45);
+            this.label1.Location = new System.Drawing.Point(1462, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "البحث بواسطة";
+            // 
+            // header2
+            // 
+            this.header2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.header2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.header2.Location = new System.Drawing.Point(0, 0);
+            this.header2.Name = "header2";
+            this.header2.Size = new System.Drawing.Size(1608, 80);
+            this.header2.TabIndex = 17;
             // 
             // Search
             // 
@@ -144,7 +155,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1608, 783);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.header1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Search";
             this.Text = "Search";
@@ -168,5 +178,6 @@
         private System.Windows.Forms.Label labelSeparator;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private AfaqScope.User_Controls.Header header2;
     }
 }

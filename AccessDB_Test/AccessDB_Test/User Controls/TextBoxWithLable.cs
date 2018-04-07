@@ -42,9 +42,10 @@ namespace AccessDB_Test
             labelStar.Show();
             labelUpperText.Hide();
         }
-        public void setUpperText(string s)
+        public void setUpperText(string s, string l)
         {
             labelUpperText.Text = s;
+            setLowerText(l);
         }
         public void setLowerText(string s)
         {

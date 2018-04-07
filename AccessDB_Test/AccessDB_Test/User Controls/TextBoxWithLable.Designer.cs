@@ -63,7 +63,7 @@
             this.labelStar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelStar.AutoSize = true;
             this.labelStar.ForeColor = System.Drawing.Color.Red;
-            this.labelStar.Location = new System.Drawing.Point(302, 42);
+            this.labelStar.Location = new System.Drawing.Point(286, 41);
             this.labelStar.Name = "labelStar";
             this.labelStar.Size = new System.Drawing.Size(13, 17);
             this.labelStar.TabIndex = 5;
@@ -75,7 +75,7 @@
             this.labelLowerText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLowerText.AutoSize = true;
             this.labelLowerText.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.labelLowerText.Location = new System.Drawing.Point(312, 42);
+            this.labelLowerText.Location = new System.Drawing.Point(296, 41);
             this.labelLowerText.Name = "labelLowerText";
             this.labelLowerText.Size = new System.Drawing.Size(30, 17);
             this.labelLowerText.TabIndex = 4;

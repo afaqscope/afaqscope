@@ -36,11 +36,10 @@
             // labelUpperText
             // 
             this.labelUpperText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelUpperText.AutoSize = true;
-            this.labelUpperText.Location = new System.Drawing.Point(267, 8);
+            this.labelUpperText.Location = new System.Drawing.Point(242, 8);
             this.labelUpperText.Name = "labelUpperText";
             this.labelUpperText.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.labelUpperText.Size = new System.Drawing.Size(72, 17);
+            this.labelUpperText.Size = new System.Drawing.Size(100, 17);
             this.labelUpperText.TabIndex = 11;
             this.labelUpperText.Text = "upperText";
             // 
@@ -80,7 +79,6 @@
             this.Size = new System.Drawing.Size(345, 70);
             this.Load += new System.EventHandler(this.ComboBoxWithText_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
